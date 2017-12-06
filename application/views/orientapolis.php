@@ -9,12 +9,14 @@
       su "calcola!".
     </p>
     <form method="post">
-      <?php foreach ($domande as $domandaID => $domanda): ?>
-        <?php echo $domanda["testo"] ?><br />
-        <input type="radio" name="<?php echo $domandaID ?>" value="r1"><?php echo $domanda["r1"] ?></input><br />
-        <input type="radio" name="<?php echo $domandaID ?>" value="r2"><?php echo $domanda["r2"] ?></input><br />
-        <input type="radio" name="<?php echo $domandaID ?>" value="r3"><?php echo $domanda["r3"] ?></input><br />
-        <input type="radio" name="<?php echo $domandaID ?>" value="r4"><?php echo $domanda["r4"] ?></input><br />
+      <?php foreach ($questions as $item): ?>
+        <h1><?php echo $item["text"]; ?></h1>
+        <?php foreach ($item["questions"] as $key => $item): ?>
+          <b><?php echo $item["text"] ?></b><br />
+          <?php foreach ($item["answers"] as $ans => $ansData): ?>
+            <input type="radio" name="<?php echo $key ?>" value="<?php echo $ans ?>" ><?php echo $ansData["text"] ?></input><br />
+            <?php endforeach; ?>
+        <?php endforeach; ?>
       <?php endforeach; ?>
     </form>
   </body>

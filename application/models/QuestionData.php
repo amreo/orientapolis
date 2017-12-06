@@ -13,97 +13,91 @@ class QuestionData extends CI_Model{
   {
     //test data
     $questions = array(
-      "domande_generali" => array (
-        "testo" => "Cultura generale",
-        "variabili" => array (
-          "x" => array (
-            "offset" => 0,
-            "multiplier" => 1,
-          ),
-          "y" => array (
-            "offset" => 0,
-            "multiplier" => 1,
-          )
-        ),
-        "domande" => array (
-          "d1" => array (
-            "testo" => "È necessario essere liberi",
-            "risposte" => array (
-              "r1" => array (
-                "testo" => "fortemente d'accordo",
-                "y" => 0.8 ),
-              "r2" => array (
-                "testo" => "d'accordo",
-                "y" => 0.5 ),
-              "r3" => array (
-                "testo" => "disaccordo",
-                "y" => -0.5 ),
-              "r4" => array (
-                "testo" => "fortemnente disaccordo",
-                "y" => -1 )
-              )
-          ),
-          "d2" => array (
-            "testo" => "Non dobbiamo accogliere i migranti",
-            "risposte" => array (
-              "r1" => array (
-                "testo" => "fortemente d'accordo",
-                "x" => 0.7 ),
-              "r2" => array (
-                "testo" => "d'accordo",
-                "x" => 0.3 ),
-              "r3" => array (
-                "testo" => "disaccordo",
-                "x" => -0.2 ),
-              "r4" => array (
-                "testo" => "fortemnente disaccordo",
-                "x" => -0.5 )
-              )
-            ),
-          )
-        ),
-        "domande_sociali" => array (
-          "testo" => "Temi sociali",
-          "domande" => array (
+      "data" => array (
+
+      ),
+      "questions" => array (
+        "domande_generali" => array (
+          "text" => "Cultura generale",
+          "questions" => array (
             "d1" => array (
-              "testo" => "In uno stato civile l’aborto dovrebbe essere sempre legale",
-              "risposte" => array (
+              "text" => "È necessario essere liberi",
+              "answers" => array (
                 "r1" => array (
-                  "testo" => "fortemente d'accordo",
-                  "y" => 0.5 ),
+                  "text" => "fortemente d'accordo",
+                  "y" => 0.8 ),
                 "r2" => array (
-                  "testo" => "d'accordo",
-                  "y" => 0.3 ),
+                  "text" => "d'accordo",
+                  "y" => 0.5 ),
                 "r3" => array (
-                  "testo" => "disaccordo",
-                  "y" => 0 ),
+                  "text" => "disaccordo",
+                  "y" => -0.5 ),
                 "r4" => array (
-                  "testo" => "fortemnente disaccordo",
-                  "y" => 0.7 )
+                  "text" => "fortemnente disaccordo",
+                  "y" => -1 )
                 )
             ),
             "d2" => array (
-              "testo" => "In Italia la situazione della donna è paritaria con quella degli uomini.",
-              "risposte" => array (
+              "text" => "Non dobbiamo accogliere i migranti",
+              "answers" => array (
                 "r1" => array (
-                  "testo" => "fortemente d'accordo",
-                  "x" => 0.8 ),
+                  "text" => "fortemente d'accordo",
+                  "x" => 0.7 ),
                 "r2" => array (
-                  "testo" => "d'accordo",
+                  "text" => "d'accordo",
                   "x" => 0.3 ),
                 "r3" => array (
-                  "testo" => "disaccordo",
+                  "text" => "disaccordo",
                   "x" => -0.2 ),
                 "r4" => array (
-                  "testo" => "fortemnente disaccordo",
-                  "x" => 0.8 )
+                  "text" => "fortemnente disaccordo",
+                  "x" => -0.5 )
                 )
               ),
             )
           ),
+          "domande_sociali" => array (
+            "text" => "Temi sociali",
+            "questions" => array (
+              "d1" => array (
+                "text" => "In uno stato civile l’aborto dovrebbe essere sempre legale",
+                "answers" => array (
+                  "r1" => array (
+                    "text" => "fortemente d'accordo",
+                    "y" => 0.5 ),
+                  "r2" => array (
+                    "text" => "d'accordo",
+                    "y" => 0.3 ),
+                  "r3" => array (
+                    "text" => "disaccordo",
+                    "y" => 0 ),
+                  "r4" => array (
+                    "text" => "fortemnente disaccordo",
+                    "y" => 0.7 )
+                  )
+              ),
+              "d2" => array (
+                "text" => "In Italia la situazione della donna è paritaria con quella degli uomini.",
+                "answers" => array (
+                  "r1" => array (
+                    "text" => "fortemente d'accordo",
+                    "x" => 0.8 ),
+                  "r2" => array (
+                    "text" => "d'accordo",
+                    "x" => 0.3 ),
+                  "r3" => array (
+                    "text" => "disaccordo",
+                    "x" => -0.2 ),
+                  "r4" => array (
+                    "text" => "fortemnente disaccordo",
+                    "x" => 0.8 )
+                )
+              )
+           )
+        )
       )
     );
 
-    return questions;
+    return $questions;
   }
 }
