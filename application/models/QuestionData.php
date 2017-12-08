@@ -14,7 +14,14 @@ class QuestionData extends CI_Model{
     //test data
     $questions = array(
       "data" => array (
-
+        "x" => array (
+          "offset" => 0,
+          "multiplier" => 1,
+        ),
+        "y" => array (
+          "offset" => 0,
+          "multiplier" => 1,
+        ),
       ),
       "questions" => array (
         "domande_generali" => array (
