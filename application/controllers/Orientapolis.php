@@ -10,9 +10,15 @@ class Orientapolis extends CI_Controller{
 
   function index()
   {
+    $this->load->helper('form');
+    $this->load->library('form_validation');
     $this->load->model("QuestionData");
     $data = $this->QuestionData->getQuestions();
     $this->load->view("orientapolis", $data);
   }
 
+  function result()
+  {
+    
+  }
 }

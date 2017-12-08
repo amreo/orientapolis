@@ -8,7 +8,8 @@
       Per calcolare la tua posizione politica, rispondere alle domande e cliccare
       su "calcola!".
     </p>
-    <form method="post">
+    <?php echo validation_errors(); ?>
+    <?php echo form_open("orientapolis/result"); ?>
       <?php foreach ($questions as $item): ?>
         <h1><?php echo $item["text"]; ?></h1>
         <?php foreach ($item["questions"] as $key => $item): ?>
@@ -18,6 +19,8 @@
             <?php endforeach; ?>
         <?php endforeach; ?>
       <?php endforeach; ?>
+
+      <input type="submit" value="Calcola!" />
     </form>
   </body>
 </html>
