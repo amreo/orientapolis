@@ -1,0 +1,92 @@
+{
+  "data":  {
+    "x":  {
+      "offset": 0,
+      "multiplier": 1
+    },
+    "y":  {
+      "offset": 0,
+      "multiplier": 1
+    }
+  },
+  "questions":  {
+    "domande_generali":  {
+      "text": "Cultura generale",
+      "questions":  {
+        "d1":  {
+          "text": "È necessario essere liberi",
+          "answers":  {
+            "r1":  {
+              "text": "fortemente d'accordo",
+              "y": 0.8 },
+            "r2":  {
+              "text": "d'accordo",
+              "y": 0.5 },
+            "r3":  {
+              "text": "disaccordo",
+              "y": -0.5 },
+            "r4":  {
+              "text": "fortemenente disaccordo",
+              "y": -1 }
+            }
+        },
+        "d2":  {
+          "text": "Non dobbiamo accogliere i migranti",
+          "answers":  {
+            "r1":  {
+              "text": "fortemente d'accordo",
+              "x": 0.7 },
+            "r2":  {
+              "text": "d'accordo",
+              "x": 0.3 },
+            "r3":  {
+              "text": "disaccordo",
+              "x": -0.2 },
+            "r4":  {
+              "text": "fortemenente disaccordo",
+              "x": -0.5 }
+            }
+          }
+        }
+      },
+      "domande_sociali":  {
+        "text": "Temi sociali",
+        "questions":  {
+          "d1":  {
+            "text": "In uno stato civile l’aborto dovrebbe essere sempre legale",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "y": 0.5 },
+              "r2":  {
+                "text": "d'accordo",
+                "y": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "y": 0 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "y": 0.7 }
+              }
+          },
+          "d2":  {
+            "text": "In Italia la situazione della donna è paritaria con quella degli uomini.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          }
+       }
+    }
+  }
+}
