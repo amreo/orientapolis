@@ -11,7 +11,7 @@ class QuestionData extends CI_Model{
 
   public function getQuestions()
   {
-    //test data
+    //read data from file
     $filename = "data/questions.json";
     $handle = fopen($filename, "r");
     $json = fread($handle, filesize($filename));
