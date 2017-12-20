@@ -58,11 +58,15 @@ class Orientapolis extends CI_Controller {
       }
     }
 
-    //apply the medium, multiplier and offset
     foreach ($result as $key => $item)
-    {
       $result[$key]["value"] = $item["value"] / $item["count"] * $item["multiplier"] + $item["offset"];
-      echo $key . " = " .  $result[$key]["value"] . "<br />";
-    }
+
+
+    //apply the medium, multiplier and offset
+    $data2 = array (
+      "positions" => $result
+    );
+
+    $this->load->view("result", $data2);
   }
 }
