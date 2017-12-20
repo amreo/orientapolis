@@ -23,7 +23,7 @@ class Orientapolis extends CI_Controller {
     $postdata = array();
     $modelData = $this->QuestionData->getQuestions();
     //build the postData array
-    foreach ($this->QuestionData->getQuestions()["questions"] as $section => $item)
+    foreach ($modelData["questions"] as $section => $item)
     {
       foreach ($item["questions"] as $key => $item) {
         $postdata[$section][$key] = $this->input->post($section . "_" . $key);
