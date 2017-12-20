@@ -40,7 +40,7 @@ class QuestionData extends CI_Model{
                   "text" => "disaccordo",
                   "y" => -0.5 ),
                 "r4" => array (
-                  "text" => "fortemnente disaccordo",
+                  "text" => "fortemenente disaccordo",
                   "y" => -1 )
                 )
             ),
@@ -57,7 +57,7 @@ class QuestionData extends CI_Model{
                   "text" => "disaccordo",
                   "x" => -0.2 ),
                 "r4" => array (
-                  "text" => "fortemnente disaccordo",
+                  "text" => "fortemenente disaccordo",
                   "x" => -0.5 )
                 )
               ),
@@ -79,7 +79,7 @@ class QuestionData extends CI_Model{
                     "text" => "disaccordo",
                     "y" => 0 ),
                   "r4" => array (
-                    "text" => "fortemnente disaccordo",
+                    "text" => "fortemenente disaccordo",
                     "y" => 0.7 )
                   )
               ),
@@ -96,7 +96,7 @@ class QuestionData extends CI_Model{
                     "text" => "disaccordo",
                     "x" => -0.2 ),
                   "r4" => array (
-                    "text" => "fortemnente disaccordo",
+                    "text" => "fortemenente disaccordo",
                     "x" => 0.8 )
                 )
               )
