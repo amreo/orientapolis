@@ -24,27 +24,10 @@
               "y": 0.5 },
             "r3":  {
               "text": "disaccordo",
+            "r4":  {
+              "text": "fortemenente disaccordo",
               "y": -0.5 },
-            "r4":  {
-              "text": "fortemenente disaccordo",
               "y": -1 }
-            }
-        },
-        "d2":  {
-          "text": "Non dobbiamo accogliere i migranti",
-          "answers":  {
-            "r1":  {
-              "text": "fortemente d'accordo",
-              "x": 0.7 },
-            "r2":  {
-              "text": "d'accordo",
-              "x": 0.3 },
-            "r3":  {
-              "text": "disaccordo",
-              "x": -0.2 },
-            "r4":  {
-              "text": "fortemenente disaccordo",
-              "x": -0.5 }
             }
           }
         }
@@ -228,6 +211,640 @@
              }
          }
        }
-    }
+    },
+    "Politica":  {
+        "text": "Politica",
+        "questions":  {
+          "d1":  {
+            "text": "E’ necessario che il governo intervenga nell’economia per proteggere i consumatori",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": -1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": -0.5 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": 0.5 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 1 }
+              }
+          },
+		      "d2":  {
+            "text": "E’ meglio mantenere un bilancio positivo che assicurare un buono stato sociale per tutti i cittadini",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d3":  {
+            "text": "Servizi pubblici come strade e elettricità dovrebbero essere di proprietà pubblica",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d4":  {
+            "text": "E’ giusto supportare I blocchi Geopolitici come l’Unione Europa",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d5":  {
+            "text": "E’ importante mantenere la nostra sovranità popolare",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d6":  {
+            "text": "Un Governo a partito unico è la soluzione per mettere fine all’inefficienza dei Governanti",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d7":  {
+            "text": "Le spese militari sono uno sperpero di denaro",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d8":  {
+            "text": "I Governi dovrebbero essere sotto il controllo della Comunità Internazionale",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		    	"d9":  {
+            "text": "La violenza non è accettabile anche quando si sta protestando contro un Governo Autoritario",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d10":  {
+            "text": "E’ molto importante mantenere l’ordine pubblico e la giustizia",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d11":  {
+            "text": "Il sacrificio di alcune libertà civili è necessario per proteggerci dagli attacchi terroristici",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d12":  {
+            "text": "Indipendentemente dall’idea politica, è importante schierarsi con la propria nazione",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d13":  {
+            "text": "Più il comando di chi governa è forte, meglio è",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d14":  {
+            "text": "La Democrazia è più di un processo basato solo su delle scelte",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d15":  {
+            "text": "Le norme Ambientali sono essenziali",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d16":  {
+            "text": "Il Governo dovrebbe avere una componente religiosa",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		    	"d17":  {
+            "text": "Dovremmo aprire i confine all’immigrazione",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d18":  {
+            "text": "I Governi dovrebbero essere interessati ai cittadini stranieri tanto quanto i cittadini nati in quella nazione",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d19":  {
+            "text": "Dovrebbe esserci un limite di mandato per i membri del partito",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		    	"d20":  {
+            "text": "L’Italia dovrebbe lasciare l’Unione Europea",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d21":  {
+            "text": "Dovrebbe essere consentito ad un parlamentare eletto in un partito, cambiare successivamente schieramento",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		    	"d22":  {
+            "text": "Dovrebbe essere alzata l’età minima di voto",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		    	"d23":  {
+            "text": "Il governo dovrebbe poter controllare le telefonate e le e-mail di persone sospettate di un crimine",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d24":  {
+            "text": "Le democrazie plutocratiche (cioè predominio nella vita politica di individui con elevate disponibilità economiche) e reazionarie dell’Occidente hanno ostacolato la marcia e spesso insidiato resistenza medesima dei popoli fecondi e giovani.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d25":  {
+            "text": "Nulla è perduto con la pace, tutto può esserlo con la guerra",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d26":  {
+            "text": "I cittadini che hanno avuto problemi con la giustizia (illeciti penali, amministrativi e civili) non dovrebbero ricoprire alcuna carica politica",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d27":  {
+            "text": "Un abnorme livello di pressione fiscale, specie in un tempo di crisi, la tassazione talmente elevata rende impossibile la tutela e la protezione dei beni umani fondamentali, quali il lavoro",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d28":  {
+            "text": "Lo stato viola il patto sociale e diventa ingiusto se la spesa pubblica, cioè l’uso di quanto i cittadini hanno versato al fisco, è esorbitante",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d29":  {
+            "text": "È più importante capire l’origine del debito pubblico, al fine di apportare migliorie al sistema, rispetto che tassare maggiormente il popolo",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d30":  {
+            "text": "La tassa non è il tributo che il cittadino deve allo stato a prescindere",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d31":  {
+            "text": "Il produrre ricchezza è una colpa, anziché un merito che genera benessere",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d32":  {
+            "text": "Bisognerebbe dare più potere alle forze dell’ordine",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d33":  {
+            "text": "La proprietà privata non venga oppressa da imposte eccessive, perché il diritto di proprietà privata non deriva dalla legge umana, ma da quella naturale",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		  	  "d34":  {
+            "text": "L’imposta non può diventare un comodo metodo per colmare i deficit provocati da un’amministrazione imprevidente",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		   	  "d35":  {
+            "text": "È giusto che un buon governo garantisca prospettive egualitarie ai cittadini",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d36":  {
+            "text": "Lo stato è oppressore quindi non deve esistere dal punto di vista istituzionale",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+          },
+		      "d37":  {
+            "text": "Uno stato dovrebbe essere laico",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 1 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.7 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.7 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": -1 }
+              }
+            }
+          }
+     }
   }
 }
