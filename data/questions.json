@@ -86,7 +86,148 @@
                 "x": 0.8 }
             }
           }
-       }
+       },
+       "migranti":  {
+         "text": "Immigrati",
+         "questions":  {
+           "d1":  {
+             "text": "Gli immigrati, clandestini e non, hanno tutti gli stessi diritti fondamentali senza distinzione di paese di provenienza, cultura, lingua e religione.",
+             "answers":  {
+               "r1":  {
+                 "text": "fortemente d'accordo",
+                 "y": 0.5 },
+               "r2":  {
+                 "text": "d'accordo",
+                 "y": 0.3 },
+               "r3":  {
+                 "text": "disaccordo",
+                 "y": 0 },
+               "r4":  {
+                 "text": "fortemenente disaccordo",
+                 "y": -0.7 }
+               }
+           },
+           "d2":  {
+             "text": "Gli immigrati hanno gli stessi diritti economici e sociali rispetto ai cittadini della nazione ospitante.",
+             "answers":  {
+               "r1":  {
+                 "text": "fortemente d'accordo",
+                 "y": 0.5 },
+               "r2":  {
+                 "text": "d'accordo",
+                 "y": 0.3 },
+               "r3":  {
+                 "text": "disaccordo",
+                 "y": 0 },
+               "r4":  {
+                 "text": "fortemenente disaccordo",
+                 "y": -0.7 }
+               }
+           },
+           "d3":  {
+             "text": "Gli immigrati di qualsiasi tipo (politici, richiedenti asilo, che cercano lavoro) hanno il diritto di essere accolti in qualsiasi nazione.",
+             "answers":  {
+               "r1":  {
+                 "text": "fortemente d'accordo",
+                 "y": 0.5 },
+               "r2":  {
+                 "text": "d'accordo",
+                 "y": 0.3 },
+               "r3":  {
+                 "text": "disaccordo",
+                 "y": 0 },
+               "r4":  {
+                 "text": "fortemenente disaccordo",
+                 "y": -0.7 }
+               }
+           },
+           "d4":  {
+             "text": "Cooperative e società economiche gestite da immigrati regolari devono aver meno agevolazioni da parte dello stato.",
+             "answers":  {
+               "r1":  {
+                 "text": "fortemente d'accordo",
+                 "y": 0.5 },
+               "r2":  {
+                 "text": "d'accordo",
+                 "y": 0.3 },
+               "r3":  {
+                 "text": "disaccordo",
+                 "y": 0 },
+               "r4":  {
+                 "text": "fortemenente disaccordo",
+                 "y": -0.7 }
+               }
+           },
+           "d5":  {
+             "text": "Persone non europee (Profughi) possono circolare liberamente negli stati UE.",
+             "answers":  {
+               "r1":  {
+                 "text": "fortemente d'accordo",
+                 "y": 0.5 },
+               "r2":  {
+                 "text": "d'accordo",
+                 "y": 0.3 },
+               "r3":  {
+                 "text": "disaccordo",
+                 "y": 0 },
+               "r4":  {
+                 "text": "fortemenente disaccordo",
+                 "y": -0.7 }
+               }
+           },
+           "d6":  {
+             "text": "le merci importate da immigrati devono essere tassate allo stesso modo rispetto a quelle prodotte nella nazione.",
+             "answers":  {
+               "r1":  {
+                 "text": "fortemente d'accordo",
+                 "y": 0.5 },
+               "r2":  {
+                 "text": "d'accordo",
+                 "y": 0.3 },
+               "r3":  {
+                 "text": "disaccordo",
+                 "y": 0 },
+               "r4":  {
+                 "text": "fortemenente disaccordo",
+                 "y": -0.7 }
+               }
+           },
+           "d7":  {
+             "text": "Gli immigrati che si trovano fuori o dentro l'UE possono partecipare alle elezioni amministrative sia come elettori che come candidati.",
+             "answers":  {
+               "r1":  {
+                 "text": "fortemente d'accordo",
+                 "y": 0.5 },
+               "r2":  {
+                 "text": "d'accordo",
+                 "y": 0.3 },
+               "r3":  {
+                 "text": "disaccordo",
+                 "y": 0 },
+               "r4":  {
+                 "text": "fortemenente disaccordo",
+                 "y": -0.7 }
+               }
+           },
+           "d8":  {
+             "text": "Gli immigrati possono partecipare a raccolte firme per petizioni.",
+             "answers":  {
+               "r1":  {
+                 "text": "fortemente d'accordo",
+                 "y": 0.5 },
+               "r2":  {
+                 "text": "d'accordo",
+                 "y": 0.3 },
+               "r3":  {
+                 "text": "disaccordo",
+                 "y": 0 },
+               "r4":  {
+                 "text": "fortemenente disaccordo",
+                 "y": -0.7 }
+               }
+           }
+        }
+      }
     }
   }
 }
