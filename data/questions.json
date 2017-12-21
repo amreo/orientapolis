@@ -36,7 +36,7 @@
         "text": "Temi sociali",
         "questions":  {
           "d1":  {
-            "text": "In uno stato civile l’aborto dovrebbe essere sempre legale",
+            "text": "La cosa più importante per i bambini è imparare ad accettare la disciplina.",
             "answers":  {
               "r1":  {
                 "text": "fortemente d'accordo",
@@ -53,7 +53,177 @@
               }
           },
           "d2":  {
-            "text": "In Italia la situazione della donna è paritaria con quella degli uomini.",
+            "text": "In uno stato civile l’aborto dovrebbe essere sempre legale.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d3":  {
+            "text": "È giusto che due persone dello stesso sesso possano adottare un bambino.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d4":  {
+            "text": "Il possesso di droghe leggere dovrebbe essere legale.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d5":  {
+            "text": "Le droghe pesanti devono essere considerate dallo Stato allo stesso livello delle droghe leggere.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d6":  {
+            "text": "In caso di gravi malattie ognuno dovrebbe avere il diritto di decidere sulla propria vita.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d7":  {
+            "text": "Ogni donna è libera di intraprendere la carriera professionale che preferisce, consapevole però che il suo impiego principale è occuparsi della casa.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d8":  {
+            "text": "I vaccini più importanti dovrebbero essere obbligatori per tutti.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d9":  {
+            "text": "È giusto che una persona in luogo pubblico venga costantemente filmata per questioni di sicurezza.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d10":  {
+            "text": "Lo Stato dovrebbe impedire a una persona, con malattie ereditarie, di avere figli.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d11":  {
+            "text": "Occhio per occhio, dente per dente.",
+            "answers":  {
+              "r1":  {
+                "text": "fortemente d'accordo",
+                "x": 0.8 },
+              "r2":  {
+                "text": "d'accordo",
+                "x": 0.3 },
+              "r3":  {
+                "text": "disaccordo",
+                "x": -0.2 },
+              "r4":  {
+                "text": "fortemenente disaccordo",
+                "x": 0.8 }
+            }
+          },
+	        "d12":  {
+            "text": "L’ora di religione dovrebbe essere obbligatoria per tutti.",
             "answers":  {
               "r1":  {
                 "text": "fortemente d'accordo",
